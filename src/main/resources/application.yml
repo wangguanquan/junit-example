@@ -1,0 +1,4 @@
+spring:
+  mustache:
+    charset: utf-8
+    cache: false

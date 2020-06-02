@@ -1,0 +1,16 @@
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+
+    <title>SIGN IN</title>
+    <link rel="shortcut icon" href="./static/favicon.ico" type="image/x-icon">
+</head>
+<body class="body-grey">
+{{#message}}<h3>{{message}}</h3>{{/message}}
+    <form action="/signin" method="post">
+        <p><label for="account">account:</label><input id="account" name="account" value="{{#account}}{{account}}{{/account}}"/></p>
+        <p><label for="password">password:</label><input id="password" name="password" type="password"/></p>
+        <p><input type="submit" value="SUBMIT"></p>
+    </form>
+</body>
+</html>
