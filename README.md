@@ -56,13 +56,13 @@ fail()	|让测试失败。
 
 #### IDEA
 右击项目选择"Run 'All Tests' with Coverage"
-![](referer/idea.png)
-![](referer/idea%20coverage.png)
+![](referer/idea%20test.png)
+![](referer/idea%20coverage%20result.png)
 
 #### Eclipse
 右击项目选择"Coverage As" -> "Junit Test"
-![](referer/eclipse.png)
-![](referer/eclipse%20coverage.png)
+![](referer/eclipse%20test.png)
+![](referer/eclipse%20coverage%20result.png)
 
 ## 参考文档
 [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/)
